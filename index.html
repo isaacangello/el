@@ -7,43 +7,63 @@
         .tabela{
           border-collapse: collapse;
         }
-        .tabela tr td {
+        .tabela tr th {
           border: 1px solid #000;
+          background-color: #eee;
+          padding: 10px;
+        }
+        .tabela tr td {
+
+          border: 1px solid #000;
+          padding: 10px;
+        }
+        .divimput{
+          margin-bottom: 10px;
         }
     </style>
   </head>
   <body>
     <header></header>
     <main>
-        Teste  dois adasdasd
-
-        asdas<table class="tabela">
+      <h3>Titulo Geral</h3>
+      <div class="divimput">
+      <label >dado</label>
+      <input id="imptext" type="text" placeholder="Insira o dado">
+    </div>
+        <table class="tabela">
            <tr>
-            <td>Arquivo 1</td>
-            <td>Descrição</td>
-            <td>Isaac</td>
-            <td>DSC</td>
+            <th>Título 1</th>
+            <th>Título 2</th>
+            <th>Título 3</th>
+            <th>Título 4</th>
            </tr>
            <tr>
-            <td>Arquivo 1</td>
-            <td>Descrição TESTE</td>
-            <td>Isaac</td>
-            <td>DSC</td>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+            <td>Dado 4</td>
            </tr>
            <tr>
-            <td>Arquivo 1</td>
-            <td>Descrição</td>
-            <td>Isaac</td>
-            <td>DSC</td>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+            <td>Dado 4</td>
            </tr>
            <tr>
-            <td>Arquivo 1</td>
-            <td>Descrição</td>
-            <td>Isaac</td>
-            <td>DSC</td>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td id="insertText">Dado 3</td>
+            <td>Dado 4</td>
+           </tr>
+           <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+            <td>Dado 4</td>
            </tr>
         </table>
-<div class="tabela_tabeless">
+<hr>  
+        <div class="tabela_tabeless">
         <ul>
           <li class="header"></li>
           <li class="header"></li>
@@ -77,5 +97,8 @@
 </div>
     </main>
     <footer></footer>
+    <script>
+          
+    </script>
   </body>
 </html>
